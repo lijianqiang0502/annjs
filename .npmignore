@@ -1,0 +1,10 @@
+node_modules
+public
+src
+.babelrc
+.gitignore
+.huskyrc
+checkGit.js
+commitlint.config.js
+yarn.lock
+yarn-error.log
