@@ -23,3 +23,22 @@
         [str] => 需要转成对象的query字符串
     example:"a=1&b=2" => {a:1, b:2}
 ```
+```
+4.LazyImage
+    图片懒加载：
+    let lazy = new LazyImage(selector);
+    lazy.init();
+```
+```
+5.debounce
+    param:
+        [fun] => 函数
+        [delay] => 延迟
+        [...args] => 参数
+```
+```
+5.生成随机序列额
+    param:
+        [type] => 类型 num->数字, letter->字符+数字
+        [length] => 长度
+```
