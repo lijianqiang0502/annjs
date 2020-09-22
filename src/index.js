@@ -5,6 +5,7 @@ import LazyImage from './lazy-image';
 import LazyLoad from './lazy-load';
 import random from './random';
 import debounce from './debounce';
+import getType from './get-type';
 
 export {
   sort,
@@ -14,4 +15,5 @@ export {
   LazyLoad,
   debounce,
   random,
+  getType,
 }

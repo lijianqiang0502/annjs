@@ -30,21 +30,26 @@
     lazy.init();
 ```
 ```
-4.LazyLoad
+5.LazyLoad
     触底加载：
     let lazy = new LazyLoad(selector, callback, delay);
     lazy.init();
 ```
 ```
-5.debounce
+6.debounce
     param:
         [fun] => 函数
         [delay] => 延迟
         [...args] => 参数
 ```
 ```
-5.生成随机序列额
+7.生成随机序列额
     param:
         [type] => 类型 num->数字, letter->字符+数字
         [length] => 长度
+```
+```
+8.获取变量类型
+    param: any: 变量类型
+    return: Object Array等
 ```

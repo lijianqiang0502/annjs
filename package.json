@@ -1,6 +1,6 @@
 {
   "name": "@lijianqiang01/annjs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/annjs.min.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "@babel/plugin-syntax-class-properties": "^7.10.4",
     "@jest/globals": "^26.4.2",
+    "intersection-observer": "^0.11.0",
     "simple-git": "^2.18.0"
   },
   "devDependencies": {

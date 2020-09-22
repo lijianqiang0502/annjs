@@ -1,3 +1,5 @@
+require('intersection-observer');
+
 export default function LazyLoad (selector, bottomCallback, delay = 1000) {
     this.target = document.querySelector(selector);
     this.listen = (item) => {
