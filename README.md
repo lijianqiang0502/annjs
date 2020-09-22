@@ -30,6 +30,12 @@
     lazy.init();
 ```
 ```
+4.LazyLoad
+    触底加载：
+    let lazy = new LazyLoad(selector, callback, delay);
+    lazy.init();
+```
+```
 5.debounce
     param:
         [fun] => 函数
